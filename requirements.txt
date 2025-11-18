@@ -1,0 +1,4 @@
+opencv-python==4.10.0.84
+pytesseract==0.3.13
+moviepy==1.0.3
+tkinter
