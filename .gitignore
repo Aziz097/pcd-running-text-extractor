@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large video files - do not commit to Git
+data/input/*.mp4
+data/input/*.avi
+data/input/*.mov
+data/input/*.mkv
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Output files (optional - can be regenerated)
+data/output/*/clips/*.mp4
+data/output/*/debug/*.png
+data/output/*/debug/*.jpg
+
+# Logs
+*.log
